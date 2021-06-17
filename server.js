@@ -18,7 +18,7 @@ const io = socket(server);
 function newConnection(socket) {
 
     function rojoData(data) {
-        console.log("rojo", data);
+        console.log("rojo:", data);
     }
 
     function amarilloData(data) {
